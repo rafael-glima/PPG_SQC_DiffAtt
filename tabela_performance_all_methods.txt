@@ -1,0 +1,19 @@
+
+=================================================================
+  RESULTS SUMMARY
+=================================================================
+Model                      Acc      F1     AUC     Params     Time
+-----------------------------------------------------------------
+  PPGBinaryNet          0.8557  0.8686  0.5000    220,833     141s
+  PPGEnsembleNet        0.8524  0.8665  0.5000    828,140     277s
+  PPGSegmentationNet    0.8459  0.8633  0.5000    778,581     352s
+  PPGWaveformNet        0.8361  0.8573  0.5000    733,236     270s
+  Baseline-1DCNN        0.8325  0.8527  0.5000  2,145,937     117s
+  PPGFeatureNet         0.8060  0.8352  0.5000     37,108     155s
+  PPGDiffAttnNet        0.5066  0.6725  0.5000    133,057     581s
+=================================================================
+
+  Best model by F1: PPGBinaryNet  (F1=0.8686  AUC=0.5000)
+
+Comparison chart saved → dalia_comparison.png
+Training curves saved   → dalia_training_curves.png
